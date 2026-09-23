@@ -102,23 +102,6 @@ export default function TradePolicyPage() {
         </Reveal>
       </Section>
 
-      {/* Publications note */}
-      <Section tone="parchment">
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <EyebrowLabel tone="brass" className="justify-center">
-            Forthcoming
-          </EyebrowLabel>
-          <p className="mt-5 font-display text-2xl font-normal leading-snug text-ink md:text-[1.75rem]">
-            {tradePolicy.publications}
-          </p>
-        </Reveal>
-        <div className="mt-10 flex justify-center">
-          <LinkButton href="/contact" variant="primary">
-            Propose a Partnership
-            <ArrowRight size={18} />
-          </LinkButton>
-        </div>
-      </Section>
     </>
   );
 }

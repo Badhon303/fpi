@@ -23,6 +23,7 @@ import {
   corePrinciples,
   functionalAreas,
   tradePolicy,
+  quarterlyBulletin,
   membership,
   whatSetsApart,
 } from "@/content/site";
@@ -181,6 +182,28 @@ export default function HomePage() {
               </div>
             </div>
           </Reveal>
+        </div>
+      </Section>
+
+      {/* Publications teaser */}
+      <Section tone="parchment-soft">
+        <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-16">
+          <div>
+            <EyebrowLabel tone="brass">Publications</EyebrowLabel>
+            <h2 className="mt-4 font-display text-h2 font-normal text-ink">
+              Read the latest FPI Bangladesh bulletin.
+            </h2>
+            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+              Policy, economy, finance, and sustainability insights from the July–September 2026 issue.
+            </p>
+            <p className="mt-5 font-mono text-xs uppercase tracking-eyebrow text-rust">
+              {quarterlyBulletin.edition}
+            </p>
+          </div>
+          <LinkButton href="/publications" variant="primary" className="shrink-0">
+            View Publications
+            <ArrowRight size={18} />
+          </LinkButton>
         </div>
       </Section>
 

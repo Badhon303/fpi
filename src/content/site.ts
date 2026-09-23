@@ -13,6 +13,7 @@ export const nav = [
   { label: "About", href: "/about" },
   { label: "What We Do", href: "/what-we-do" },
   { label: "Trade & Policy", href: "/trade-policy" },
+  { label: "Publications", href: "/publications" },
   { label: "Membership", href: "/membership" },
   { label: "Contact", href: "/contact" },
 ];
@@ -125,8 +126,132 @@ export const tradePolicy = {
       "US cotton opportunity for spinning & garment industries",
     ],
   },
-  publications:
-    "FPI Bangladesh intends to publish its first flagship annual report in 2027, alongside a regular policy brief series.",
+};
+
+export const quarterlyBulletin = {
+  title: "FPI Quarterly Bulletin",
+  edition: "Volume 1 · Issue 1 · July–September 2026",
+  editorial: {
+    title: "FPI and Advancing Policy Culture in Bangladesh",
+    author: "Dr. Sarwar Uddin Ahmed",
+    paragraphs: [
+      "Bangladesh has developed a diverse think tank landscape over several decades. It includes independent research centres, public institutions, university centres, NGO research units and civil-society institutes such as BIDS, CPD, PRI, RAPID, PPRC, BIGD, BFTI, BIISS, ICCAD and CSD. Together, they have contributed analysis on macroeconomics, trade, poverty, social protection, climate change, governance, security and development.",
+      "This range of institutions is a national asset. Yet the integration and implementation of their policy recommendations are often criticised for limited focus, coordination and coverage. At a time of geopolitical strain and domestic vulnerability, Bangladesh must address energy security, export competitiveness, LDC graduation, financial-sector resilience, technology adoption, sustainability, financial inclusion and social protection.",
+      "FPI aims to help bridge this gap in three ways. First, FPI will connect research and knowledge with timely policy dialogue. Research serves the public interest when it informs a regulation, trade agreement, investment policy or social-protection programme at the point when decisions are being made. FPI will combine independent research, policy analysis, briefs, bulletins, working papers and publications with consultations, roundtables and conferences.",
+      "Second, FPI will examine the relationship between productive growth and inclusion. Trade and investment policy should support export diversification, stronger supply chains, better jobs and industrial competitiveness. Financial inclusion must go beyond account ownership to encompass consumer protection, financial literacy, responsible digital services, access to credit, household resilience and trust.",
+      "Third, FPI will connect field-level perspectives with national policy debate. Policy discussions can become detached from the experience of small enterprises, workers, women, regional businesses, local financial-service users and marginalised communities. FPI's stakeholder engagement and capacity-building work can bring those perspectives closer to national policymakers and institutional leaders.",
+      "FPI can support the Government of Bangladesh through timely analysis, structured consultation and implementable options on difficult economic and financial questions. By convening institutions, it can help make policy more accountable, transparent, evidence-based and responsive to performance.",
+      "The task is ambitious, but worthwhile. FPI seeks to become a trusted source of policy insight: independent in judgement, inclusive in engagement and practical in its contribution to Bangladesh's economy.",
+    ],
+  },
+  news: [
+    {
+      title: "SDG progress remains too slow",
+      date: "July 2026",
+      body: "The UN's 2026 assessment records gains in water, electricity, health care, connectivity and social protection since 2015, but warns that conflict, debt stress, weak growth, climate change and falling aid continue to threaten progress toward 2030.",
+      source: "United Nations Statistics Division",
+    },
+    {
+      title: "Renewable power posts record growth",
+      date: "July 2026",
+      body: "IRENA reports that 692 GW of renewable capacity was added in 2025, lifting global capacity by 15.5 percent. Growth is increasingly central to energy security, although investment and affordable finance remain concentrated in a limited number of economies.",
+      source: "International Renewable Energy Agency",
+    },
+    {
+      title: "Women and rural borrowers lead sustainable finance",
+      date: "August 2026",
+      body: "Bangladesh Bank reports that women made up 55 percent of 1.09 million sustainable-finance recipients and more than 73 percent lived in rural areas. Direct green finance nevertheless fell to Tk 5,196.7 crore, showing that inclusion does not automatically deliver enough project-level green investment.",
+      source: "Bangladesh Bank; The Daily Star",
+    },
+    {
+      title: "Floods expose the welfare cost of climate risk",
+      date: "August 2026",
+      body: "Floods and landslides affected about 1.3 million people in seven Chattogram Division districts. UNFPA identified 364,000 women of reproductive age and 17,490 pregnant women among those affected, reinforcing the need for resilient clinics, safe shelters and pre-planned emergency support.",
+      source: "UNFPA Bangladesh",
+    },
+    {
+      title: "Rooftop solar supports energy security",
+      date: "September 2026",
+      body: "Bangladesh introduced incentives for rooftop solar with battery storage after power shortages approached 4,000 MW. Eligible systems installed by 28 February 2027 may receive Tk 10.50 per kWh for surplus power, subject to affordable finance, reliable equipment and timely grid payments.",
+      source: "Reuters",
+    },
+    {
+      title: "Record heat strengthens the case for adaptation",
+      date: "September 2026",
+      body: "Copernicus reported a global average temperature of 16.96 C in August 2026, 1.65 C above the pre-industrial level. A single month does not establish a lasting breach of the Paris threshold, but the reading adds urgency to heat-health planning, water management and worker protection.",
+      source: "Copernicus Climate Change Service; Reuters",
+    },
+    {
+      title: "Central banks focus on nature and water risk",
+      date: "September 2026",
+      body: "A UNEP FI dialogue involving 13 central banks and supervisors highlighted gaps in asset-location data and methods for measuring nature-related exposure. Environmental pressure is increasingly being treated as a source of credit, market and operational risk.",
+      source: "United Nations Environment Programme Finance Initiative",
+    },
+  ],
+  features: [
+    {
+      label: "Feature 01 · Energy and Circular Economy",
+      title: "Turning Bangladesh's Waste into Energy Security",
+      subtitle: "How Renewable Natural Gas Can Help Ease the Country's Gas Supply Challenge",
+      author: "Khadem Mahmud Yusuf",
+      paragraphs: [
+        "Bangladesh is facing two serious problems that are usually discussed separately: a shortage of natural gas and a growing municipal waste-management crisis. Yet these challenges may have an important connection. Bangladesh's gas demand is around 3.8 billion cubic feet per day (Bcf/d), while the grid typically receives approximately 2.7 Bcf/d, creating a substantial structural shortfall. Declining domestic production and increasing reliance on imported LNG have increased exposure to international supply disruptions and price volatility. At the same time, Bangladesh's cities generate enormous quantities of municipal waste, much of which is organic and capable of producing biogas.",
+        "What RNG is. RNG, or biomethane, is produced from organic materials such as food and vegetable waste, livestock manure, agricultural residues and wastewater sludge. Through anaerobic digestion, microorganisms break down organic material without oxygen and produce biogas. After removing carbon dioxide, moisture and other impurities, the methane can be upgraded into RNG. Depending on infrastructure and applicable standards, RNG can be compressed for vehicle fuel, supplied to industrial consumers or, where feasible, injected into the natural-gas network. The process can also produce digestate for compost or organic fertilizer.",
+        "Bangladesh's overlooked energy resource. Bangladesh generates an estimated 38,000 tons of municipal solid waste every day, with roughly 70 percent, about 26,600 tons, estimated to be organic and potentially digestible. Using an indicative biogas yield of 80 cubic metres per ton of organic feedstock, this represents a theoretical raw-biogas potential of approximately 2.13 million cubic metres per day. Assuming 60 percent methane and upgrading to an RNG stream with 95 percent methane, the theoretical potential is approximately 47.5 MMscfd. This is not an immediately achievable production level. Actual output would depend on waste collection, source segregation, contamination, feedstock quality, digestion efficiency, methane recovery, plant availability and technology performance.",
+        "Why RNG matters for energy security. RNG will not replace LNG. Its strategic value is as a domestically sourced and decentralised supplementary gas resource. Unlike imported LNG, RNG produced from domestic waste is not directly exposed to international shipping disruptions or global spot-market volatility. It can also reduce foreign-exchange pressure by substituting, at least in part, for imported gas. RNG facilities could be developed at city or regional scale, close to waste sources and local energy consumers.",
+        "The economic opportunity. Bangladesh's LNG import bill is projected at approximately USD 8.0 billion, while spot cargoes are currently trading around USD 28/MMBtu, compared with approximately USD 12/MMBtu in 2025. At USD 28/MMBtu, the theoretical national RNG potential of around 47.5 MMscfd represents an indicative gross gas value, or potential import-substitution value, of approximately USD 485 million per year, nearly 6 percent of the projected LNG import bill.",
+        "Lessons from international experience. India has developed large-scale municipal Bio-CNG facilities that convert segregated organic waste into renewable gas and organic compost. The key lesson is that technology alone is not enough. Successful projects depend on reliable collection, effective source segregation and consistent feedstock quality. For Bangladesh, waste-to-RNG should therefore be part of a broader transformation of municipal waste management.",
+        "What Bangladesh needs to do. Bangladesh should begin with carefully designed city-scale demonstration projects and use their results to develop a national model. This requires better waste collection and source segregation, a clear regulatory framework, private-sector participation, and appropriate standards and offtake arrangements for compressed RNG, industrial use and, where feasible, gas-grid injection. RNG will not replace LNG or solve Bangladesh's energy crisis by itself, but it can provide a domestically produced, decentralised and renewable source of gas while addressing a persistent urban environmental problem.",
+      ],
+    },
+    {
+      label: "Feature 02 · Banking and Technology",
+      title: "Building Human Capability for Banking in the Age of AI",
+      author: "Syed Mazharul Islam",
+      paragraphs: [
+        "Artificial intelligence is no longer a distant idea for banking. It is already entering customer service, fraud detection, data analysis, risk monitoring and routine automation. Bangladesh Bank has also recognised AI, machine learning and data analytics as emerging technologies with growing relevance for the financial sector. Young bankers are often comfortable with new technology. The more difficult question is whether institutions are giving them enough guidance on where technology should stop and professional judgement should begin.",
+        "AI offers clear benefits. It can review thousands of transactions and identify unusual patterns much faster than manual processes. It can support fraud detection, anti-money laundering monitoring, customer due diligence and risk analysis. For individual bankers, AI can help search lengthy regulations, summarise documents, analyse information, prepare draft reports and answer routine customer questions. These uses can save time, but faster work is not automatically better work.",
+        "Banking depends on trust because it involves people's money and personal information. An AI system can produce a confident answer that is incomplete or wrong. Poor, outdated or biased data can distort credit decisions. Employees may expose confidential information by entering it into an unauthorised AI platform. Concerns include privacy, discrimination, transparency and dependence on third-party providers.",
+        "Cybersecurity adds another risk. The same technology that helps banks detect suspicious activity can help criminals create convincing phishing messages, false identities, cloned voices and deepfakes. Banks must therefore prepare staff to recognise AI-assisted fraud as well as use AI for defence.",
+        "Banks need clear rules for AI use. Employees should know which tools are authorised, what information must never be shared, how outputs must be checked and which decisions require human approval. Senior management should assign responsibility for AI governance rather than leave it entirely to technology teams.",
+        "AI literacy should become part of professional development for bankers generally, not only for IT specialists. Frontline staff need to understand AI-enabled fraud, data privacy and customer protection. Credit, risk and compliance professionals need stronger skills in data interpretation, source verification and model limitations.",
+        "Banks should resist adopting every new AI application simply because it is available. They can begin with controlled uses, set clear success and risk measures, review results, and expand only when the evidence supports wider deployment. As technology becomes more capable, critical thinking, ethical judgement, communication, empathy and an understanding of the customer cannot be treated as optional skills.",
+      ],
+    },
+    {
+      label: "Feature 03 · Social Protection and Financial Inclusion",
+      title: "The Potential of the Family Card Goes Beyond Social Assistance",
+      subtitle: "A Gateway to Financial Inclusion",
+      author: "Dr. Shah Md Ahsan Habib",
+      paragraphs: [
+        "Bangladesh's Family Card has moved from an election promise to a national social protection programme. Launched in March 2026 and expanded nationwide in August, it is designed to deliver regular support to low-income households, with women receiving the cards. The government plans to cover 4.1 million beneficiaries in the 2026-27 financial year and gradually reach about 16 million families within four years. The budget allocation of Tk 145 billion shows the scale of the commitment. Its wider value, however, will depend on whether it becomes a reliable bridge to the formal financial system.",
+        "The immediate purpose is clear. A predictable transfer can help families buy food and manage essential expenses when prices rise or income falls. A single household record can also reduce the confusion created by separate beneficiary lists. If the Dynamic Social Registry is kept accurate, the government can identify need more fairly, avoid duplicate payments and respond faster after floods, cyclones or other shocks.",
+        "The card's financial design matters just as much as its welfare role. Payments made through regulated bank accounts or mobile financial services give recipients a safe place to receive and store money. For a household that has relied on cash or informal arrangements, that first account can become an entry point to savings, payments, insurance and suitable credit. Digital transfers can also lower travel costs, reduce delays and leave a record that supports public accountability.",
+        "Women could gain the most if access is genuine. Issuing the card to a woman may strengthen her role in household decisions, but the name on the card is not enough. She must control the linked account, keep her personal identification number and use nearby agents without pressure from relatives or intermediaries. Clear complaints procedures and confidential support are essential.",
+        "Rural access remains a practical test. Many communities still face weak internet connections, long journeys to service points and limited confidence with digital transactions. Banks and mobile financial service providers should expand reliable agent networks, publish all fees and offer simple accounts with no hidden charges. Beneficiaries also need short, practical training on checking balances, protecting passwords, identifying fraud and comparing financial products.",
+        "Better access should not become careless lending. A record of government transfers does not prove that a family can repay a loan. Credit providers must assess income and repayment capacity, explain the full cost and prevent aggressive sales. Small savings products and affordable insurance may be more useful than instant credit for many families.",
+        "Data protection is equally important. A national registry will hold sensitive information about identity, income and family circumstances. Access should be limited, recorded and independently audited. People must know what data are collected, why they are used and how errors can be corrected. Strong cybersecurity, consent rules and penalties for misuse are necessary to maintain trust.",
+        "The programme should therefore be judged by outcomes, not by the number of cards distributed. Useful measures include payments made on time, women retaining control of accounts, fewer excluded eligible families, lower transaction costs and safe use of savings or insurance. Public reporting and independent evaluation can expose regional gaps, political interference and fraud before they become established.",
+        "The Family Card can become more than a monthly benefit. Properly managed, it can connect social protection with a wider financial system that serves people on fair terms. That promise will be fulfilled only through accurate targeting, dependable payments, accessible services and firm protection of personal data. The card itself is a tool. The quality of the institutions behind it will determine whether it strengthens dignity, resilience and economic participation across Bangladesh.",
+      ],
+    },
+  ],
+  consultations: [
+    {
+      date: "17 October 2026",
+      title: "Making the Family Card Deliver for Women and Inclusive Development",
+      themes: "Accountability · Access · Finance",
+      body: "A national discussion on transparent targeting, reliable benefit delivery, effective grievance redress, women's control over benefits, safe payment services and practical pathways from social protection to financial inclusion and livelihoods.",
+      details: "Westin Hotel, Gulshan, Dhaka · Policymakers · Development partners · Financial sector · Researchers · Civil society",
+    },
+    {
+      date: "First week of November 2026",
+      title: "Future US-Bangla Trade Relations",
+      themes: "Market Access · Investment · Post-LDC Competitiveness",
+      body: "This consultation will examine how Bangladesh can convert changing U.S. trade arrangements into stronger export competitiveness, investment, technology cooperation and a credible post-LDC strategy while managing adjustment costs and preserving room for diversified economic partnerships.",
+      details: "Date, venue and programme details will be announced · Focus: market access, export diversification, investment finance and LDC transition",
+    },
+  ],
 };
 
 export const membership = {
